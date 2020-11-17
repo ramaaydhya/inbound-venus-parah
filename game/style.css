@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Parah. */
 #parah{
 position: absolute;
@@ -68,10 +69,29 @@ font-size: 30px;
 line-height: 80%;
 /* identical to box height, or 24px */
 
+=======
+/* Yuk Main Games! :) */
+#maingame{
+position: absolute;
+width: 410px;
+height: 162px;
+left: 58px;
+top: 135px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 80%;
+/* or 77px */
+
+font-feature-settings: 'cpsp' on;
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 
 color: #40336D;
 }
 
+<<<<<<< HEAD
 /* About */
 #about{
 position: absolute;
@@ -86,11 +106,28 @@ font-weight: 600;
 font-size: 30px;
 line-height: 80%;
 /* identical to box height, or 24px */
+=======
+/* Capek setelah baca materi? Yuk main games aja! Pilih Kategori Gamenya dulu yaa... */
+#capek{
+position: absolute;
+width: 359px;
+height: 104px;
+left: 58px;
+top: 354px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 80%;
+/* or 22px */
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 
 
 color: #40336D;
 }
 
+<<<<<<< HEAD
 #title>#q {
     /* Yuk Main Games! :) */
     position: absolute;
@@ -128,6 +165,10 @@ color: #40336D;
 
 #button1 {
 /* button */
+=======
+/* button */
+#switch{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 330px;
 height: 80px;
@@ -137,6 +178,7 @@ top: 569px;
 background: #40336D;
 border-radius: 20px;
 }
+<<<<<<< HEAD
 
 #switch {
     /* SWITCH GAME */
@@ -187,6 +229,30 @@ top: 0px;
 
 /* Lorem Ipsum */
 #kuis>#judul{
+=======
+/* SWITCH GAME */
+#switchtext{
+position: absolute;
+width: 187px;
+height: 24px;
+left: 126px;
+top: 594px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+/* Lorem Ipsum */
+#kuisjudul{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 379px;
 height: 64px;
@@ -206,7 +272,11 @@ color: #40336D;
 }
 
 /* Uji pengetahuanmu di game lorem ipsum (Kuis). Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
+<<<<<<< HEAD
 #kuis>#text{
+=======
+#kuistext{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 415px;
 height: 87px;
@@ -224,7 +294,11 @@ color: #40336D;
 }
 
 /* button */
+<<<<<<< HEAD
 #kuis>#button{
+=======
+#kuisbutton{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 330px;
 height: 80px;
@@ -236,7 +310,11 @@ border-radius: 20px;
 }
 
 /* LET’S PLAY */
+<<<<<<< HEAD
 #kuis>#play{
+=======
+#kuisplay{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 148px;
 height: 24px;
@@ -256,7 +334,11 @@ color: #FFFFFF;
 }
 
 /* mitos fakta*/
+<<<<<<< HEAD
 #mifak > #judul{
+=======
+#mifakjudul{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 379px;
 height: 64px;
@@ -276,7 +358,11 @@ color: #40336D;
 }
 
 /* Uji pengetahuanmu di game lorem ipsum (Kuis). Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
+<<<<<<< HEAD
 #mifak > #text{
+=======
+#mifaktext{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 460px;
 height: 87px;
@@ -294,7 +380,11 @@ color: #40336D;
 }
 
 /* button */
+<<<<<<< HEAD
 #mifak > #button{
+=======
+#mifakbutton{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 330px;
 height: 80px;
@@ -306,7 +396,11 @@ border-radius: 20px;
 }
 
 /* LET’S PLAY */
+<<<<<<< HEAD
 #mifak > #play{
+=======
+#mifakplay{
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
 position: absolute;
 width: 148px;
 height: 24px;
@@ -324,4 +418,7 @@ letter-spacing: 0.1em;
 
 color: #FFFFFF;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9b354aba6be19ddba93c9dfb659057ba593cba9
