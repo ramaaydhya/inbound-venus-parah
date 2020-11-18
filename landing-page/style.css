@@ -20,15 +20,17 @@
 			position: absolute;
 			width: 148px;
 			height: 38px;
-			left: 57px;
-			top: 15px;
+			left: 58px;
+			/*top: 10px;*/
 
-			font-family: Helvetica;
+			font-family: HelveticaNeue;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 48px;
 			line-height: 80%;
 			/* or 38px */
+
+
 			color: #40336D;
 		}
 		#menu > #learn{
@@ -38,6 +40,7 @@
 			height: 24px;
 			left: 635px;
 			top: 29px;
+			cursor: pointer;
 
 			font-family: Source Sans Pro;
 			font-style: normal;
@@ -158,8 +161,27 @@
 			left: 57px;
 			top: 559px;
 
-			background: #40336D;
-			border-radius: 20px;
+			background-color: #40336D;
+ 			border-radius: 20px;
+    		display: inline-block;
+    		transition-duration: 0.4s;
+    		cursor: pointer;
+
+    		font-family: Roboto;
+    		font-style: normal;
+   			font-weight: bold;
+    		font-size: 24px;
+    		line-height: 100%;
+   			 /* identical to box height, or 24px */
+
+    		letter-spacing: 0.1em;
+
+    		font-color: #FFFFFF;
+		}
+
+		.button1:hover {
+ 		 background-color: #4CAF50;
+  		color: white;
 		}
 		#start{
 			/* LET’S START */
