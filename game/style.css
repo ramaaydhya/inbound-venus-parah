@@ -165,31 +165,13 @@ a {
     color: #FFFFFF;
 }
 
-#button1 {
+#switch {
     /* button */
     position: absolute;
     width: 330px;
     height: 80px;
     left: 97px;
     top: 563px;
-}
-
-#switch {
-    /* SWITCH GAME */
-    position: absolute;
-    width: 187px;
-    height: 24px;
-    left: 165px;
-    top: 588px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100%;
-    /* identical to box height, or 24px */
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    border: solid;
 }
 
 
