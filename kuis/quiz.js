@@ -32,58 +32,58 @@ let questions = [
         question : "3. Dimana virus corona pertama kali muncul?",
         choiceA : "Wuhan, China",
         choiceB : "Jakarta, Indonesia",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        choiceC : "Tokyo, Jepang",
+        choiceD : "London, Inggris",
+        correct : "A"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "4. Apa sih gejala yang dialami orang yang terinfeksi?",
+        choiceA : "Batuk-Bersin",
+        choiceB : "Demam",
+        choiceC : "Sesak napas",
+        choiceD : "Semua benar",
+        correct : "D"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "5. Berapa jarak yang aman untuk kita menjaga jarak?",
+        choiceA : "0.5 meter",
+        choiceB : "2 meter",
+        choiceC : "1 meter",
+        choiceD : "10 meter",
+        correct : "B"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-         choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "6. Saat keluar rumah sebaiknya kita mengenakan … untuk melindungi diri dari virus",
+        choiceA : "Masker",
+        choiceB : "Kacamata",
+         choiceC : "Sepatu",
+        choiceD : "Termometer",
+        correct : "A"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-         choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "7. Bagaimana cara agar daya tahan tubuh kita kuat?",
+        choiceA : "Tidur cukup",
+        choiceB : "Rajin berolahraga",
+         choiceC : "Makan makanan bergizi",
+        choiceD : "Semua benar",
+        correct : "D"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "Apa yang kita gunakan jika tidak ada sabun untuk cuci tangan?",
+        choiceA : "Shampo",
+        choiceB : "Air saja",
+        choiceC : "Tidak usah cuci tangan",
+        choiceD : "handsanitizer",
+        correct : "D"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "Melalui apa saja virus corona menular?",
+        choiceA : "Tikus",
+        choiceB : "Nyamuk",
+        choiceC : "Air minum",
+        choiceD : "Air liur",
+        correct : "D"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Coronavirus Desease 2019",
-        choiceD : "Coronavirus International 2019",
-        correct : "C"
+        question : "Apa nama alat untuk mengukur suhu tubuh?",
+        choiceA : "Termometer",
+        choiceB : "Stetoskop",
+        choiceC : "Mikroskop",
+        choiceD : "Meteran",
+        correct : "A"
     }
 ];
 
@@ -163,7 +163,7 @@ function checkAnswer(answer){
         // change progress color to red
         answerIsWrong();
     }
-    count = 0;
+    count = 10;
     if(runningQuestion < lastQuestion){
         runningQuestion++;
         renderQuestion();
@@ -192,10 +192,10 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
+    let img = (scorePerCent >= 80) ? "img/4.png" :
+              (scorePerCent >= 60) ? "img/3.png" :
+              (scorePerCent >= 40) ? "img/2.png" :
+              (scorePerCent >= 0) ? "img/1.png" :
               "img/1.png";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
