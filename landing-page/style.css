@@ -1,12 +1,15 @@
 /* landing page corona 1 */
-		#canvas{
-			position: absolute;
-			width: 1281px;
-			height: 2909px;
-			left: 0px;
-			top: 0px;
-		}
-		/*
+
+#canvas {
+    position: absolute;
+    width: 1281px;
+    height: 2909px;
+    left: 0px;
+    top: 0px;
+}
+
+
+/*
 		#background{
 			position: absolute;
 			width: 1280px;
@@ -15,395 +18,361 @@
 			top: -2px;
 		}
 		*/
-		#menu > #title{
-			/* Parah. */
-			position: absolute;
-			width: 148px;
-			height: 38px;
-			left: 58px;
-			/*top: 10px;*/
 
-			font-family: HelveticaNeue;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 80%;
-			/* or 38px */
+#menu>#title {
+    /* Parah. */
+    position: absolute;
+    width: 148px;
+    height: 38px;
+    left: 58px;
+    /*top: 10px;*/
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80%;
+    /* or 38px */
+    color: #40336D;
+}
 
+#menu>#learn {
+    /* Learn */
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 635px;
+    top: 29px;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
 
-			color: #40336D;
-		}
-		#menu > #learn{
-			/* Learn */
-			position: absolute;
-			width: 73px;
-			height: 24px;
-			left: 635px;
-			top: 29px;
-			cursor: pointer;
+#menu>#news {
+    /* News */
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 807px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
 
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 80%;
-			/* identical to box height, or 24px */
+#menu>#game {
+    /* Game */
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 974px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
 
+#menu>#about {
+    /* About */
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 1143px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
 
-			color: #40336D;
-		}
-
-		#menu > #news{
-			/* News */
-
-
-			position: absolute;
-			width: 71px;
-			height: 24px;
-			left: 807px;
-			top: 29px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 80%;
-			/* identical to box height, or 24px */
-
-
-			color: #40336D;
-		}
-		#menu > #game{
-			/* Game */
-			position: absolute;
-			width: 75px;
-			height: 24px;
-			left: 974px;
-			top: 29px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 80%;
-			/* identical to box height, or 24px */
-
-
-			color: #40336D;
-		}
-		#menu > #about{
-			/* About */
-			position: absolute;
-			width: 78px;
-			height: 24px;
-			left: 1143px;
-			top: 29px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 80%;
-			/* identical to box height, or 24px */
+a {
+    text-decoration: none;
+}
 
 
-			color: #40336D;
-		}
-		/* Pahami Soal Corona Hyung */
-		#intro > #title{
-			position: absolute;
-			width: 611px;
-			height: 154px;
-			left: 57px;
-			top: 90px;
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 900;
-			font-size: 96px;
-			line-height: 80%;
-			/* or 77px */
+/* Pahami Soal Corona Hyung */
 
-			color: #40336D;
-		}
-		#intro > #desc{
-			/* Parah adalah website yang berisi sqd edukasi mengenai Corona afsfhescsfe afzdfdbzs zsfd beradf xxsdgsdg dgrahjsj aswvscwd */
-			position: absolute;
-			width: 556px;
-			height: 196px;
-			left: 57px;
-			top: 326px;
+#intro>#title {
+    position: absolute;
+    width: 611px;
+    height: 154px;
+    left: 57px;
+    top: 90px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 80%;
+    /* or 77px */
+    color: #40336D;
+}
 
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 30px;
-			line-height: 120%;
-			/* or 43px */
+#intro>#desc {
+    /* Parah adalah website yang berisi sqd edukasi mengenai Corona afsfhescsfe afzdfdbzs zsfd beradf xxsdgsdg dgrahjsj aswvscwd */
+    position: absolute;
+    width: 556px;
+    height: 196px;
+    left: 57px;
+    top: 326px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+    /* or 43px */
+    color: #40336D;
+}
 
-			color: #40336D;
+#gambar1 {
+    /* gambar1 */
+    position: absolute;
+    width: 649px;
+    height: 487px;
+    left: 586px;
+    top: 183px;
+}
 
-		}
-		#gambar1{
-			/* gambar1 */
+.button {
+    /* button */
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 57px;
+    top: 559px;
+    background-color: #40336D;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
 
-			position: absolute;
-			width: 649px;
-			height: 487px;
-			left: 586px;
-			top: 183px;
+.button:hover {
+    background-color: #5d4ca0;
+}
 
-		}
-		#button{
-			/* button */
-			position: absolute;
-			width: 330px;
-			height: 80px;
-			left: 57px;
-			top: 559px;
+#start {
+    /* LET’S START */
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 141px;
+    top: 578px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
 
-			background-color: #40336D;
- 			border-radius: 20px;
-    		display: inline-block;
-    		transition-duration: 0.4s;
-    		cursor: pointer;
+#menu {
+    /* Group 1 */
+    position: absolute;
+    width: 1164px;
+    height: 38px;
+    left: 58px;
+    top: 21px;
+}
 
-    		font-family: Roboto;
-    		font-style: normal;
-   			font-weight: bold;
-    		font-size: 24px;
-    		line-height: 100%;
-   			 /* identical to box height, or 24px */
+#pengertian>#q {
+    position: absolute;
+    width: 424px;
+    height: 48px;
+    left: 718px;
+    top: 799px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    letter-spacing: 0.015em;
+    color: #40336D;
+}
 
-    		letter-spacing: 0.1em;
+#gambar2 {
+    /* gambar2 2 */
+    position: absolute;
+    width: 537px;
+    height: 724px;
+    left: 49px;
+    top: 694px;
+}
 
-    		font-color: #FFFFFF;
-		}
+#pengertian>#a {
+    position: absolute;
+    width: 610px;
+    height: 460px;
+    left: 606px;
+    top: 889px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
 
-		.button1:hover {
- 		 background-color: #4CAF50;
-  		color: white;
-		}
-		#start{
-			/* LET’S START */
+#penularan>#q {
+    /* Bagaimana sih penularannya? */
+    position: absolute;
+    width: 652px;
+    height: 48px;
+    left: 58px;
+    top: 1472px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    letter-spacing: 0.015em;
+    color: #40336D;
+}
 
-			position: absolute;
-			width: 200px;
-			height: 24px;
-			left: 141px;
-			top: 578px;
+#gambar3 {
+    /* gambar3 2 */
+    position: absolute;
+    width: 700px;
+    height: 630px;
+    left: 640px;
+    top: 1496px;
+}
 
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 24px;
-			line-height: 100%;
-			/* identical to box height, or 24px */
-			letter-spacing: 0.1em;
-			color: #FFFFFF;
-		}
+#penularan>#a {
+    position: absolute;
+    width: 694px;
+    height: 580px;
+    left: 58px;
+    top: 1550px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
 
-		#menu{
-			/* Group 1 */
-			position: absolute;
-			width: 1164px;
-			height: 38px;
-			left: 58px;
-			top: 21px;
-		}
+#gejala>#q {
+    /* Apa aja gejala orang yang terinfeksi ? */
+    position: absolute;
+    width: 781px;
+    height: 102px;
+    left: 66px;
+    top: 2203px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #40336D;
+}
 
-		#pengertian > #q{
-			position: absolute;
-			width: 424px;
-			height: 48px;
-			left: 718px;
-			top: 799px;
+#gambar4 {
+    /* gambar4 */
+    position: absolute;
+    width: 640px;
+    height: 816px;
+    left: 0px;
+    top: 2250px;
+}
 
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 100%;
-			/* identical to box height, or 48px */
+#gejala>#a {
+    position: absolute;
+    width: 599px;
+    height: 515px;
+    left: 623px;
+    top: 2369px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
 
-			letter-spacing: 0.015em;
+#pencegahan>#q {
+    /* Cara Mencegahnya, Bagaimana? */
+    position: absolute;
+    width: 806px;
+    height: 48px;
+    left: 59px;
+    top: 3049px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    letter-spacing: 0.1em;
+    color: #40336D;
+}
 
-			color: #40336D;
-		}
-		#gambar2{
-			/* gambar2 2 */
-			position: absolute;
-			width: 537px;
-			height: 724px;
-			left: 49px;
-			top: 694px;
+#pencegahan>#a {
+    /* Tahukah kalian? Virus COVID-19 sampai sekarang belum ditemukan obatnya. Vaksin dari penyakit ini juga masih dalam tahap uji coba loh. Menyeramkan bukan apabila kita tertular penyakit ini. Nah, untuk menghindari virus ini ada beberapa cara pencegahan yang dapat dilakukan loh. Yuk kita simak! 1. Memakai Masker */
+    position: absolute;
+    width: 1164px;
+    height: 126px;
+    left: 57px;
+    top: 3130px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
 
-		}
-		#pengertian > #a{
-			position: absolute;
-			width: 610px;
-			height: 460px;
-			left: 606px;
-			top: 889px;
+#gambar5 {
+    /* gambar5 2 */
+    position: absolute;
+    width: 839px;
+    height: 589px;
+    left: 219px;
+    top: 3213px;
+}
 
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 35px;
-			text-align: justify;
-
-			color: #40336D;
-		}
-			
-		#penularan > #q{
-			/* Bagaimana sih penularannya? */
-			position: absolute;
-			width: 652px;
-			height: 48px;
-			left: 58px;
-			top: 1472px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 100%;
-			/* identical to box height, or 48px */
-
-			letter-spacing: 0.015em;
-
-			color: #40336D;
-		}
-		#gambar3{
-			/* gambar3 2 */
-
-
-			position: absolute;
-			width: 700px;
-			height: 630px;
-			left: 640px;
-			top: 1496px;
-
-		}
-		#penularan > #a{
-			position: absolute;
-			width: 694px;
-			height: 580px;
-			left: 58px;
-			top: 1550px;
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 35px;
-			text-align: justify;
-
-			color: #40336D;
-		}
-
-		#gejala > #q{
-			/* Apa aja gejala orang yang terinfeksi ? */
-			position: absolute;
-			width: 781px;
-			height: 102px;
-			left: 66px;
-			top: 2203px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 60px;
-
-			color: #40336D;
-		}
-		#gambar4{
-			/* gambar4 */
-			position: absolute;
-			width: 640px;
-			height: 816px;
-			left: 0px;
-			top: 2250px;
-
-		}
-		#gejala > #a{
-			position: absolute;
-			width: 599px;
-			height: 515px;
-			left: 623px;
-			top: 2369px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 35px;
-			text-align: justify;
-
-			color: #40336D;
-		}
-		
-		#pencegahan > #q{
-			/* Cara Mencegahnya, Bagaimana? */
-
-			position : absolute;
-			width: 806px;
-			height: 48px;
-			left: 59px;
-			top: 3049px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 100%;
-			/* identical to box height, or 48px */
-
-			letter-spacing: 0.1em;
-
-			color: #40336D;
-		}
-
-		#pencegahan > #a{
-			/* Tahukah kalian? Virus COVID-19 sampai sekarang belum ditemukan obatnya. Vaksin dari penyakit ini juga masih dalam tahap uji coba loh. Menyeramkan bukan apabila kita tertular penyakit ini. Nah, untuk menghindari virus ini ada beberapa cara pencegahan yang dapat dilakukan loh. Yuk kita simak! 1. Memakai Masker */
-			position: absolute;
-			width: 1164px;
-			height: 126px;
-			left: 57px;
-			top: 3130px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 35px;
-			text-align: justify;
-
-			color: #40336D;
-
-		}
-		#gambar5{
-			/* gambar5 2 */
-			position: absolute;
-			width: 839px;
-			height: 589px;
-			left: 219px;
-			top: 3213px;
-
-		}
-		#pencegahan > #a1{
-			position: absolute;
-			width: 1164px;
-			height: 860px;
-			left: 57px;
-			top: 3830px;
-
-			font-family: Source Sans Pro;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 28px;
-			line-height: 35px;
-			text-align: justify;
-
-			color: #40336D;	
-		}
+#pencegahan>#a1 {
+    position: absolute;
+    width: 1164px;
+    height: 860px;
+    left: 57px;
+    top: 3830px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
