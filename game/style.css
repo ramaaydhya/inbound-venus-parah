@@ -6,12 +6,12 @@ body {
 
 
 /* Parah. */
+
 #parah {
     position: absolute;
     width: 148px;
     height: 38px;
     left: 58px;
-    /*top: 10px;*/
     top: 21px;
     font-family: HelveticaNeue;
     font-style: normal;
@@ -24,6 +24,7 @@ body {
 
 
 /* Learn */
+
 #learn {
     position: absolute;
     width: 73px;
@@ -35,6 +36,7 @@ body {
     font-weight: 600;
     font-size: 30px;
     line-height: 80%;
+    /* identical to box height, or 24px */
     color: #40336D;
 }
 
@@ -101,7 +103,7 @@ a {
     position: absolute;
     width: 400px;
     height: 10px;
-    left: 58px;
+    left: 86px;
     top: 140px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -121,7 +123,7 @@ a {
     position: absolute;
     width: 400px;
     height: 200px;
-    left: 58px;
+    left: 86px;
     top: 140px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -146,7 +148,7 @@ a {
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
-    line-height: 110%;
+    line-height: 80%;
     /* or 22px */
     text-align: center;
     color: #40336D;
@@ -163,54 +165,22 @@ a {
     color: #FFFFFF;
 }
 
-#button1 {
+.button:hover {
+    background-color: #5d4ca0;
+}
+
+#switch {
     /* button */
     position: absolute;
     width: 330px;
     height: 80px;
-
-    left: 58px;
-    top: 529px;
-
-    background-color: #40336D;
-    border-radius: 20px;
-    display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100%;
-    /* identical to box height, or 24px */
-
-    letter-spacing: 0.1em;
-
-    font-color: #FFFFFF;
-}
-
-#switch {
-    /* SWITCH GAME */
-    position: absolute;
-    width: 187px;
-    height: 24px;
-    left: 139px;
-    top: 548px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100%;
-    /* identical to box height, or 24px */
-   
-    color: #FFFFFF;
-    border: solid;
+    left: 97px;
+    top: 563px;
 }
 
 
 /* parahkuis 1 */
+
 #parahkuis1 {
     position: absolute;
     width: 1188px;
@@ -221,12 +191,13 @@ a {
 
 
 /* mitosfakta 1 */
-#mitosfakta1{
+
+#mitosfakta1 {
     position: absolute;
     width: 735px;
     height: 735px;
-    left: 508px;
-    top: 1246px;
+    left: 545px;
+    top: 1226px;
 }
 
 
@@ -247,7 +218,7 @@ a {
     position: absolute;
     width: 379px;
     height: 64px;
-    left: 720px;
+    left: 760px;
     top: 810px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -260,53 +231,7 @@ a {
 }
 
 
-/* Uji pengetahuanmu di game lorem ipsum (Kuis). Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
-
-/* button */
-#kuis > #button{
-position: absolute;
-width: 330px;
-height: 80px;
-left: 680px;
-top: 1070px;
-
-background-color: #40336D;
-border-radius: 20px;
-display: inline-block;
-transition-duration: 0.4s;
-cursor: pointer;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 100%;
-/* identical to box height, or 24px */
-
-letter-spacing: 0.1em;
-
-font-color: #FFFFFF;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* LET’S PLAY */
-#kuis>#play{
-position: absolute;
-width: 148px;
-height: 24px;
-left: 771px;
-top: 1095px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 100%;
- /*identical to box height, or 24px */
+/* Uji pengetahuanmu di game rapid kuis. Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
 
 #kuis>#text {
     position: absolute;
@@ -323,6 +248,7 @@ line-height: 100%;
     color: #40336D;
 }
 
+
 /* button */
 
 #kuis-play {
@@ -335,12 +261,13 @@ line-height: 100%;
 
 
 /* mitos fakta*/
+
 #mifak>#judul {
     position: absolute;
     width: 379px;
     height: 64px;
-    left: 98px;
-    top: 1350px;
+    left: 130px;
+    top: 1320px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
@@ -349,48 +276,33 @@ line-height: 100%;
     /* identical to box height, or 64px */
     letter-spacing: 0.015em;
     color: #40336D;
-
 }
 
 
 /* Uji pengetahuanmu di game lorem ipsum (Kuis). Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
-/* button */
-#mifak > #button{
-    position: absolute;
-    width: 330px;
-    height: 80px;
-    left: 102px;
-    top: 1620px;
 
-    background-color: #40336D;
-    border-radius: 20px;
-    display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100%;
-    /* identical to box height, or 24px */
-
-    letter-spacing: 0.1em;
-
-    font-color: #FFFFFF;
-  }
-  
 #mifak>#text {
     position: absolute;
     width: 460px;
     height: 87px;
-    left: 102px;
-    top: 1490px;
+    left: 82px;
+    top: 1443px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 24px;
+    line-height: 30px;
     text-align: justify;
     color: #40336D;
+}
+
+
+/* button */
+
+#mifak-play {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 135px;
+    top: 1594px;
 }
