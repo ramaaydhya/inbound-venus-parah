@@ -1,0 +1,297 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background-image: url("img/pattern.png");
+}
+
+a{
+    text-decoration: none;
+}
+#menu > #title{
+            /* Parah. */
+            position: absolute;
+            width: 148px;
+            height: 38px;
+            left: 58px;
+            top: 10px;
+
+            font-family: HelveticaNeue;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 80%;
+            /* or 38px */
+
+
+            color: #40336D;
+        }
+        #menu > #learn{
+            /* Learn */
+            position: absolute;
+            width: 73px;
+            height: 24px;
+            left: 635px;
+            top: 29px;
+            cursor: pointer;
+
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 80%;
+            /* identical to box height, or 24px */
+
+
+            color: #40336D;
+        }
+
+        #menu > #news{
+            /* News */
+
+
+            position: absolute;
+            width: 71px;
+            height: 24px;
+            left: 807px;
+            top: 29px;
+
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 80%;
+            /* identical to box height, or 24px */
+
+
+            color: #40336D;
+        }
+        #menu > #game{
+            /* Game */
+            position: absolute;
+            width: 75px;
+            height: 24px;
+            left: 974px;
+            top: 29px;
+
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 80%;
+            /* identical to box height, or 24px */
+
+
+            color: #40336D;
+        }
+        #menu > #about{
+            /* About */
+            position: absolute;
+            width: 78px;
+            height: 24px;
+            left: 1143px;
+            top: 29px;
+
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 80%;
+            /* identical to box height, or 24px */
+
+
+            color: #40336D;
+        }
+
+#gambar1{
+            /* gambar1 */
+
+            position: absolute;
+            width: 649px;
+            height: 487px;
+            margin-left:auto;
+            top: 183px;
+
+        }
+
+#gambar2{
+            /* gambar1 */
+
+            position: absolute;
+            width: 649px;
+            height: 487px;
+            margin-left: 1000px;
+            top: 60px;
+
+        }
+
+#container{
+    margin : 20px auto;
+    margin-top :140px;
+   background-color: #2c3e50;
+    height: 500px;
+    width : 700px;
+
+    position: relative;
+    width: 700px;
+    height: 500px;
+
+    background: #FFFFFF;
+    border: 10px solid #40336D;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+#start{
+    width:400px;
+    height:220px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:130px;
+    top: 110px;
+    align-items: center;
+    background: #FAEED5;
+    border: 10px solid #40336D;
+    border-radius: 30px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 80%;
+    color: #40336D;
+}
+#start:hover{
+    background-color: white;
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    left: 80px;
+    top:70px;
+}
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;   
+    text-align: center;
+
+    color: #40336D;
+}
+
+#choices{
+    width : 480px;
+    position: absolute;
+    left: 100px;
+    top : 170px;
+    padding : 10px;
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    color: #40336D;
+}
+.choice{
+    display: inline-block;
+    width : 200px;
+    height : 70px;
+    text-align: center;
+    cursor: pointer;
+    padding-top :20px;
+    background: #FAEED5;
+    border: 10px solid #40336D;
+    border-radius: 15px;
+}
+.choice:hover{
+    background: #FFFFFF;
+}
+
+#timer{
+    position: absolute;
+    height : 70px;
+    width : 200px;
+    bottom : 30px;
+    left : 230px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    top : 330px;
+    left: 77px;
+    padding:5px;
+    text-align: center;
+
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin : 20px auto;
+    background-image: url("img/pattern.png");
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#scoreContainer img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
