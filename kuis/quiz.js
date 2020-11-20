@@ -50,10 +50,10 @@ let questions = [
         choiceD : "10 meter",
         correct : "B"
     },{
-        question : "6. Saat keluar rumah sebaiknya kita mengenakan … untuk melindungi diri dari virus",
+        question : "6. Saat keluar rumah sebaiknya kita mengenakan?",
         choiceA : "Masker",
         choiceB : "Kacamata",
-         choiceC : "Sepatu",
+        choiceC : "Sepatu",
         choiceD : "Termometer",
         correct : "A"
     },{
@@ -64,21 +64,21 @@ let questions = [
         choiceD : "Semua benar",
         correct : "D"
     },{
-        question : "Apa yang kita gunakan jika tidak ada sabun untuk cuci tangan?",
+        question : "8. Apa yang kita gunakan jika tidak ada sabun untuk cuci tangan?",
         choiceA : "Shampo",
         choiceB : "Air saja",
         choiceC : "Tidak usah cuci tangan",
         choiceD : "handsanitizer",
         correct : "D"
     },{
-        question : "Melalui apa saja virus corona menular?",
+        question : "9. Melalui apa saja virus corona menular?",
         choiceA : "Tikus",
         choiceB : "Nyamuk",
         choiceC : "Air minum",
         choiceD : "Air liur",
         correct : "D"
     },{
-        question : "Apa nama alat untuk mengukur suhu tubuh?",
+        question : "10. Apa nama alat untuk mengukur suhu tubuh?",
         choiceA : "Termometer",
         choiceB : "Stetoskop",
         choiceC : "Mikroskop",
@@ -199,5 +199,5 @@ function scoreRender(){
               "img/1.png";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
-    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
+    scoreDiv.innerHTML +="<p>"+ scorePerCent +"%</p>";
 }
