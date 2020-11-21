@@ -8,16 +8,13 @@
     top: 0px;
 }
 
-
-/*
-		#background{
-			position: absolute;
-			width: 1280px;
-			height: 4555.06px;
-			left: 0px;
-			top: -2px;
-		}
-		*/
+#background {
+    position: absolute;
+    width: 1280px;
+    height: 4555.06px;
+    left: -2px;
+    top: -4px;
+}
 
 #menu>#title {
     /* Parah. */
