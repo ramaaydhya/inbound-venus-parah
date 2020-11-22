@@ -8,21 +8,19 @@
 </head>
 <body>
 	<div id="menu">
-		<p id="title">Parah.</p>
-		<a id="learn" href="https://parahstat.herokuapp.com/">Learn</a>
-        <a id="news" href="https://parahstat.herokuapp.com/">News</a>
-        <a id="game" href="style.css">Game</a>
-        <a id="about" href="https://parahstat.herokuapp.com/">About</a>
+        <a id="title">Parah.</a>
+        <nav>
+            <a id="learn" href="https://parahstat.herokuapp.com/">Learn</a>
+            <a id="news" href="https://parahstat.herokuapp.com/">News</a>
+            <a id="game" href="style.css">Game</a>
+            <a id="about" href="https://parahstat.herokuapp.com/">About</a>
+        </nav>
 	</div> 
-
-	<img src="assets/gambar1.png" id="gambar1">
-	<img src="assets/gambar3.png" id="gambar2">
 
     <div id="container">
         <div id="start"><br>Kuis <br> dimulai!</div>
         <div id="quiz" style="display: none">
             <div id="question"></div>
-            
             <table id="choices">
                 <div >
                     <tr>
@@ -50,7 +48,9 @@
             </div>
             <div id="progress"></div>
         </div>
-        <div id="scoreContainer" style="display: none"></div>
+        <div id="scoreContainer" style="display: none">
+            <a href="#"></a>
+        </div>
     </div> <!-- container -->
     <script src="quiz.js"></script>
 </body>
