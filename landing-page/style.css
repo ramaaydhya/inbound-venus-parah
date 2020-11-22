@@ -1,19 +1,9 @@
 /* landing page corona 1 */
 
-#canvas {
-    position: absolute;
-    width: 1281px;
-    height: 2909px;
-    left: 0px;
-    top: 0px;
-}
-
-#background {
-    position: absolute;
-    width: 1280px;
-    height: 4555.06px;
-    left: -2px;
-    top: -4px;
+body {
+    background-image: url("gambar/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #menu>#title {
@@ -49,12 +39,12 @@
     color: #40336D;
 }
 
-#menu>#news {
+#menu>#update {
     /* News */
     position: absolute;
     width: 71px;
     height: 24px;
-    left: 807px;
+    left: 793px;
     top: 29px;
     font-family: Source Sans Pro;
     font-style: normal;
