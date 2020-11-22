@@ -4,99 +4,54 @@ body {
     background-size: 100%;
 }
 
-
-/* Parah. */
-
-#parah {
+#menu {
+    /* Group 1 */
     position: absolute;
-    width: 148px;
+    width: 1164px;
     height: 38px;
     left: 58px;
     top: 21px;
+}
+
+div#menu{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+div#menu>a{
+    font-size: 35px;
+    padding: 0;
     font-family: HelveticaNeue;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 80%;
-    /* or 38px */
     color: #40336D;
+    padding-left: 60px;
 }
 
-
-/* Learn */
-
-#learn {
-    position: absolute;
-    width: 73px;
-    height: 24px;
-    left: 636px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
-}
-
-
-/* News */
-
-#news {
-    position: absolute;
-    width: 71px;
-    height: 24px;
-    left: 808px;
-    top: 27px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
-}
-
-
-/* Game */
-
-#game {
-    position: absolute;
-    width: 75px;
-    height: 24px;
-    left: 975px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
-}
-
-a {
+div#menu>nav{
     text-decoration: none;
+    padding: 0 30px;
 }
 
-
-/* About */
-
-#about {
-    position: absolute;
-    width: 78px;
-    height: 24px;
-    left: 1144px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
+div#menu>nav>a{
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 25px;
     color: #40336D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 }
+
 
 #title>#q1 {
     /* Yuk Main Games! :) */
@@ -279,7 +234,7 @@ a {
 }
 
 
-/* Uji pengetahuanmu di game lorem ipsum (Kuis). Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
+/* Uji pengetahuanmu di game mitos fakta. Yuk buktikan seberapa hebat kamu dalam memahami materi yang disajikan. */
 
 #mifak>#text {
     position: absolute;
