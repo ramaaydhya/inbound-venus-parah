@@ -1,0 +1,378 @@
+#background {
+    position: absolute;
+    width: 1279px;
+    height: 4646px;
+    left: 1px;
+    top: 0px;
+}
+
+#menu>#title {
+    /* Parah. */
+    position: absolute;
+    width: 148px;
+    height: 38px;
+    left: 58px;
+    /*top: 10px;*/
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80%;
+    /* or 38px */
+    color: #40336D;
+}
+
+#menu>#learn {
+    /* Learn */
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 635px;
+    top: 29px;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
+
+#menu>#news {
+    /* News */
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 807px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
+
+#menu>#game {
+    /* Game */
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 974px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
+
+#menu>#about {
+    /* About */
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 1143px;
+    top: 29px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80%;
+    /* identical to box height, or 24px */
+    color: #40336D;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    /* button */
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 57px;
+    top: 559px;
+    background-color: #40336D;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #5d4ca0;
+}
+
+#start {
+    /* LET’S START */
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 141px;
+    top: 578px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+
+/* Kenalan Yuk! */
+
+#intro>#title {
+    position: absolute;
+    width: 391px;
+    height: 188px;
+    left: 61px;
+    top: 101px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 80px;
+    /* or 83% */
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'cpsp' on;
+    color: #40336D;
+}
+
+#intro>#desc {
+    /* Siapa sih yang buat website PARAH? Apa sih tujuan website ini dibuat? Yuk kenalan dulu! Tak kenal maka tak sayang loo.. */
+    position: absolute;
+    width: 391px;
+    height: 138px;
+    left: 58px;
+    top: 332px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #40336D;
+}
+
+#history>#title {
+    /* History */
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 500px;
+    top: 785px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #40336D;
+}
+
+#history>#exp {
+    /* PARAH atau Pahami soAl coRonA Hyung adalah website yang membahas seputar COVID-19 dan dibuat oleh Tim Venus. Website ini dibuat untuk memenuhi tugas Inbound dari OmahTI. */
+    position: absolute;
+    width: 1041px;
+    height: 104px;
+    left: 86px;
+    top: 886px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #000000;
+}
+
+#astro>#title {
+    /* Ex Astronaut */
+    position: absolute;
+    width: 261px;
+    height: 60px;
+    left: 444px;
+    top: 1067px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #40336D;
+}
+
+#gambar>#kakak_kita {
+    /* Rectangle 9 */
+    position: absolute;
+    width: 269px;
+    left: 107px;
+    top: 1197px;
+}
+
+#astro>#kakak_kita {
+    /*   */
+    position: absolute;
+    width: 551px;
+    height: 70px;
+    left: 443px;
+    top: 1304px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
+
+#team>#title {
+    /* Team */
+    position: absolute;
+    width: 112px;
+    height: 60px;
+    left: 519px;
+    top: 1629px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #40336D;
+}
+
+#gambar>#ali {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 269px;
+    left: 764px;
+    top: 1781px;
+}
+
+#team>#ali {
+    /* Nama : Ahmad Ali Masykur Divisi : Cyber Security 2020 */
+    position: absolute;
+    width: 438px;
+    height: 83px;
+    left: 206px;
+    top: 1896px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
+
+#gambar>#rama {
+    /* Rectangle 11 */
+    position: absolute;
+    width: 269px;
+    left: 107px;
+    top: 2365px;
+}
+
+#team>#rama {
+    /* Nama : Gusti Agung Rama Ayudhya Divisi : Competitive Programming 2020 */
+    position: absolute;
+    width: 590px;
+    height: 83px;
+    left: 443px;
+    top: 2481px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
+
+#gambar>#handy {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 269px;
+    left: 764px;
+    top: 2949px;
+}
+
+#team>#handy {
+    /* Nama : Albertus Handy Pramana R. Divisi : Web Design 2020 */
+    position: absolute;
+    width: 495px;
+    height: 83px;
+    left: 201px;
+    top: 3043px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
+
+#gambar>#milla {
+    /* Rectangle 13 */
+    position: absolute;
+    width: 269px;
+    left: 107px;
+    top: 3533px;
+}
+
+#team>#milla {
+    /* Nama : Nia Millatul Izza Divisi : UI/UX 2020 */
+    position: absolute;
+    width: 444px;
+    height: 83px;
+    left: 443px;
+    top: 3648px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
+
+#gambar>#faiq {
+    /* Rectangle 14 */
+    position: absolute;
+    width: 269px;
+    left: 764px;
+    top: 4117px;
+}
+
+#team>#faiq {
+    /* Nama : M. Raihan Faiq Abdullah Divisi : Web Development 2020 */
+    position: absolute;
+    width: 484px;
+    height: 83px;
+    left: 201px;
+    top: 4232px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #40336D;
+}
