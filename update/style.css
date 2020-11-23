@@ -1,0 +1,148 @@
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/*#background {
+    position: absolute;
+    width: 1280px;
+    height: 4555.06px;
+    left: -2px;
+    top: -4px;
+    z-index: -1;
+}
+
+
+/* body {
+      background-image: url("gambar/background.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  */
+
+div#menu {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+div#menu>a {
+    font-size: 48px;
+    padding: 0;
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    color: #40336D;
+    padding-left: 60px;
+}
+
+div#menu>nav {
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+div#menu>nav>a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 30px;
+    color: #40336D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+#intro>#title {
+    /* Update Terkini */
+    position: absolute;
+    width: 313px;
+    height: 217px;
+    left: 58px;
+    top: 50px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 80px;
+    /* or 83% */
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'cpsp' on;
+    color: #40336D;
+}
+
+#intro>#desc {
+    position: absolute;
+    width: 556px;
+    height: 196px;
+    left: 57px;
+    top: 326px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+    /* or 43px */
+    color: #40336D;
+}
+
+.button {
+    /* button */
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 57px;
+    top: 559px;
+    background-color: #40336D;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #5d4ca0;
+}
+
+#start {
+    /* LET’S START */
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 141px;
+    top: 578px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+#menu {
+    position: absolute;
+    width: 1164px;
+    height: 38px;
+    left: 58px;
+    top: 21px;
+}
