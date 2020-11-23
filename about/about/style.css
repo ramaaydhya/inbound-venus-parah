@@ -1,90 +1,62 @@
-#background {
-    position: absolute;
-    width: 1279px;
-    height: 4646px;
-    left: 1px;
-    top: 0px;
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
-#menu>#title {
-    /* Parah. */
+body {
+    background-image: url("gambar/about.png");
+    background-position-x: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    /* Group 1 */
     position: absolute;
-    width: 148px;
+    width: 1164px;
     height: 38px;
     left: 58px;
-    /*top: 10px;*/
+    top: 21px;
+}
+
+div#menu {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+div#menu>a {
+    font-size: 48px;
+    padding: 0;
     font-family: HelveticaNeue;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 80%;
-    /* or 38px */
     color: #40336D;
+    padding-left: 60px;
 }
 
-#menu>#learn {
-    /* Learn */
-    position: absolute;
-    width: 73px;
-    height: 24px;
-    left: 635px;
-    top: 29px;
-    cursor: pointer;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
+div#menu>nav {
+    text-decoration: none;
+    padding: 0 30px;
 }
 
-#menu>#news {
-    /* News */
-    position: absolute;
-    width: 71px;
-    height: 24px;
-    left: 807px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
+div#menu>nav>a {
+    text-decoration: none;
+    padding: 0 30px;
     font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
     color: #40336D;
-}
-
-#menu>#game {
-    /* Game */
-    position: absolute;
-    width: 75px;
-    height: 24px;
-    left: 974px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
-}
-
-#menu>#about {
-    /* About */
-    position: absolute;
-    width: 78px;
-    height: 24px;
-    left: 1143px;
-    top: 29px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 80%;
-    /* identical to box height, or 24px */
-    color: #40336D;
 }
 
 a {
@@ -118,23 +90,6 @@ a {
     background-color: #5d4ca0;
 }
 
-#start {
-    /* LET’S START */
-    position: absolute;
-    width: 200px;
-    height: 24px;
-    left: 141px;
-    top: 578px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100%;
-    /* identical to box height, or 24px */
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-}
-
 
 /* Kenalan Yuk! */
 
@@ -143,7 +98,7 @@ a {
     width: 391px;
     height: 188px;
     left: 61px;
-    top: 101px;
+    top: 70px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 900;
