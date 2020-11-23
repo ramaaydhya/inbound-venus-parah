@@ -198,12 +198,11 @@ function scoreRender(){
               (scorePerCent >= 40) ? "img/2.png" :
               (scorePerCent >= 0) ? "img/1.png" :
               "img/1.png";
-    
+    const gambar = "img/hadiah.png"
     scoreDiv.innerHTML ="<h1>"+ "Nilai kamu adalah" +"</h1>";
     scoreDiv.innerHTML += "<img src="+ img +">";
     scoreDiv.innerHTML +="<p>"+ scorePerCent +"%</p>";
     scoreDiv.innerHTML +="<h3>" + "Berapa pun hasilnya, kamu tetap hebat!" + "</h3>";
     scoreDiv.innerHTML +="<h2>" + "Nih aku kasih hadiah buat kamu" + "</h2>";
-    scoreDiv.innerHTML +="<button>" + "Klik di sini" + "</button>"; 
-    //caranya nge-link ke file gambar "hadiah.png" di Javascript gimana ya? aku taunya pake HTML
+    scoreDiv.innerHTML +="<a href=" + gambar + ">" + "<button>" + "Klik di sini" + "</button>" + "</a>";
 }
