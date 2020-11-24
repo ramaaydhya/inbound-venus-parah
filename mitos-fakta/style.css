@@ -1,4 +1,6 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
     font-size: 20px;
     font-family: monospace;
     margin: 0;
@@ -7,7 +9,7 @@ body{
     background-image: url(img/pattern.png);
 }
 
-div#menu{
+div#menu {
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -19,8 +21,8 @@ div#menu{
     border-bottom-right-radius: 10px;
 }
 
-div#menu>a{
-    font-size: 35px;
+div#menu>a {
+    font-size: 48px;
     padding: 0;
     font-family: HelveticaNeue;
     font-style: normal;
@@ -29,66 +31,42 @@ div#menu>a{
     padding-left: 60px;
 }
 
-div#menu>nav{
+div#menu>nav {
     text-decoration: none;
     padding: 0 30px;
 }
 
-div#menu>nav>a{
+div#menu>nav>a {
     text-decoration: none;
     padding: 0 30px;
-    font-size: 25px;
+    font-size: 30px;
     color: #40336D;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 
-#gambar1{
-            /* gambar1 */
-
-            position: absolute;
-            width: 649px;
-            height: 487px;
-            margin-left:auto;
-            top: 183px;
-
-        }
-
-#gambar2{
-            /* gambar1 */
-
-            position: absolute;
-            width: 649px;
-            height: 487px;
-            margin-left: 1000px;
-            top: 60px;
-
-        }
-
-#container{
-    margin : 20px auto;
-    margin-top :140px;
-   background-color: #2c3e50;
-    height: 500px;
-    width : 700px;
-
-    position: relative;
+#container {
+    background-color: #2c3e50;
+    margin: auto;
+    top: 50px;
     width: 700px;
     height: 500px;
-
+    position: relative;
+    align-content: center;
     background: #FFFFFF;
     border: 10px solid #40336D;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-#start{
-    width:400px;
-    height:220px;
+
+#start {
+    width: 400px;
+    height: 220px;
     text-align: center;
     cursor: pointer;
     position: absolute;
-    left:130px;
+    left: 130px;
     top: 110px;
     align-items: center;
     background: #FAEED5;
@@ -101,138 +79,211 @@ div#menu>nav>a{
     line-height: 80%;
     color: #40336D;
 }
-#start:hover{
+
+#start:hover {
     background-color: white;
 }
 
-#qImg{
-    width : 200px;
-    height : 200px;
+#qImg {
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left : 0px;
-    top : 0px;
+    left: 0px;
+    top: 0px;
 }
-#qImg img{
-    width : 200px;
-    height : 200px;
+
+#qImg img {
+    width: 200px;
+    height: 200px;
     border-top-left-radius: 5px;
 }
 
-#question{
-    width:500px;
-    height : 125px;
+#question {
+    width: 500px;
+    height: 125px;
     position: absolute;
     left: 80px;
-    top:70px;
+    top: 0;
 }
-#question p{
-    margin : 0;
-    padding : 15px;
-    font-family: Source Sans Pro;
+
+#question p {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 100%;   
+    line-height: 100%;
     text-align: center;
-
     color: #40336D;
 }
 
-#choices{
-    width : 480px;
+#choices {
+    width: 480px;
     position: absolute;
     left: 100px;
-    top : 170px;
-    padding : 10px;
+    top: 175px;
+    padding: 10px;
     display: inline-block;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 100%;
+    font-size: 24px;
+    line-height: 80%;
+    text-align: center;
     color: #40336D;
 }
-.choice{
+
+.choice {
     display: inline-block;
-    width : 200px;
-    height : 70px;
+    width: 200px;
+    height: 70px;
     text-align: center;
     cursor: pointer;
-    padding-top :20px;
+    padding-top: 20px;
     background: #FAEED5;
     border: 10px solid #40336D;
     border-radius: 15px;
 }
-.choice:hover{
+
+.choice:hover {
     background: #FFFFFF;
 }
 
-#timer{
+#timer {
     position: absolute;
-    height : 70px;
-    width : 200px;
-    bottom : 30px;
-    left : 230px;
+    height: 70px;
+    width: 200px;
+    bottom: 30px;
+    left: 240px;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #40336D;
 }
-#counter{
+
+#counter {
     font-size: 3em;
 }
-#btimeGauge{
-    width : 150px;
-    height : 10px;
+
+#btimeGauge {
+    width: 150px;
+    height: 10px;
     border-radius: 10px;
     background-color: lightgray;
-    margin-left : 25px;
+    margin-left: 25px;
 }
-#timeGauge{
-    height : 10px;
+
+#timeGauge {
+    height: 10px;
     border-radius: 10px;
     background-color: mediumseagreen;
-    margin-top : -10px;
-    margin-left : 25px;
+    margin: -10px auto;
 }
-#progress{
-    width : 500px;
-    position: absolute;
-    top : 330px;
-    left: 77px;
-    padding:5px;
-    text-align: center;
 
+#progress {
+    width: 500px;
+    position: absolute;
+    top: 125px;
+    left: 77px;
+    padding: 5px;
+    text-align: center;
 }
-.prog{
-    width : 25px;
-    height : 25px;
-    border: 1px solid #000;
+
+.prog {
+    width: 25px;
+    height: 25px;
+    background-color: #EED55B;
     display: inline-block;
     border-radius: 50%;
-    margin-left : 5px;
-    margin-right : 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-#scoreContainer{
-    margin : 20px auto;
+
+#scoreContainer {
     background-image: url("img/pattern.png");
-    height: 300px;
-    width : 700px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px 0px;
+    background-color: #2c3e50;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 700px;
+    height: 500px;
     position: relative;
-    display: none;
+    align-content: center;
+    background: #FFFFFF;
+    border: 10px solid #40336D;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
-#scoreContainer img{
+
+#scoreContainer img {
     position: absolute;
-    top:100px;
-    left:325px;
+    top: 140px;
+    left: 315px;
 }
-#scoreContainer p{
+
+#scoreContainer p {
     position: absolute;
     display: block;
-    width : 59px;
-    height :59px;
-    top:130px;
-    left:325px;
+    width: 59px;
+    height: 59px;
+    top: 150px;
+    left: 290px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+    color: #40336D;
+}
+
+#scoreContainer h1 {
+    top: 10px;
+    left: 315px;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    color: #40336D;
+}
+
+#scoreContainer button {
+    margin-top: -10px;
+    margin-left: 275px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #40336D;
+}
+
+#scoreContainer h3 {
+    margin-top: 200px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #40336D;
+}
+
+#scoreContainer h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #40336D;
 }
