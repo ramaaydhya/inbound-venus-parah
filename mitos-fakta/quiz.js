@@ -168,14 +168,19 @@ function scoreRender(){
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
-    
+
+
     // choose the image based on the scorePerCent
     let img = (scorePerCent >= 80) ? "img/4.png" :
               (scorePerCent >= 60) ? "img/3.png" :
               (scorePerCent >= 40) ? "img/2.png" :
               (scorePerCent >= 0) ? "img/1.png" :
               "img/1.png";
-    
-    scoreDiv.innerHTML = "<img src="+ img +">";
+    const gambar = "img/hadiah.png"
+    scoreDiv.innerHTML ="<h1>"+ "Nilai kamu adalah" +"</h1>";
+    scoreDiv.innerHTML += "<img src="+ img +">";
     scoreDiv.innerHTML +="<p>"+ scorePerCent +"%</p>";
+    scoreDiv.innerHTML +="<h3>" + "Berapa pun hasilnya, kamu tetap hebat!" + "</h3>";
+    scoreDiv.innerHTML +="<h2>" + "Nih aku kasih hadiah buat kamu" + "</h2>";
+    scoreDiv.innerHTML +="<a href=" + gambar + ">" + "<button>" + "Klik di sini" + "</button>" + "</a>";
 }
