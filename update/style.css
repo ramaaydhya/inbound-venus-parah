@@ -12,17 +12,16 @@
     left: -2px;
     top: -4px;
     z-index: -1;
-}
+} */
 
 
-/* body {
-      background-image: url("gambar/background.png");
+body {
+      background-image: url("/asset/img/update.png");
       background-size: 100%;
       background-repeat: no-repeat;
   }
-  */
 
-div#menu {
+div#menu{
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -37,7 +36,7 @@ div#menu {
     z-index: 2;
 }
 
-div#menu>a {
+div#menu>a{
     font-size: 48px;
     padding: 0;
     font-family: HelveticaNeue;
@@ -47,12 +46,12 @@ div#menu>a {
     padding-left: 60px;
 }
 
-div#menu>nav {
+div#menu>nav{
     text-decoration: none;
     padding: 0 30px;
 }
 
-div#menu>nav>a {
+div#menu>nav>a{
     text-decoration: none;
     padding: 0 30px;
     font-size: 30px;
@@ -60,6 +59,7 @@ div#menu>nav>a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+
 
 #intro>#title {
     /* Update Terkini */
@@ -145,4 +145,460 @@ div#menu>nav>a {
     height: 38px;
     left: 58px;
     top: 21px;
+}
+
+#prov {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#prov td, #prov th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#prov tr:nth-child(even){background-color: #f2f2f2;}
+
+#prov tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#prov th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#prov {
+    position: absolute;
+    width: 1164px;
+    height: 594px;
+    left: 58px;
+    top: 1280px;
+}
+
+/* Data Kasus COVID-19 */
+#datakasus{
+    position: absolute;
+    width: 428px;
+    height: 60px;
+    left: 426px;
+    top: 736px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #40336D;
+}
+
+/* Data Kasus Global */
+#global{
+    position: absolute;
+    width: 347px;
+    height: 57px;
+    left: 58px;
+    top: 809px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 57px; 
+    color: #40336D;
+}
+
+#global1 {
+    position: absolute;
+    width: 368px;
+    height: 91px;
+    left: 58px;
+    top: 902px;
+
+}
+#glob1{
+    position: absolute;
+width: 213px;
+height: 33px;
+left: 114px;
+top: 896px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+text-align: justify;
+color: #FFFFFF;
+}
+
+#globtxt1 {
+    position: absolute;
+width: 92px;
+height: 23px;
+left: 73px;
+top: 890px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-align: justify;
+color: #FFFFFF;
+}
+
+#globpic1 {
+    position: absolute;
+width: 241px;
+height: 241px;
+left: 262px;
+top: 835px;
+}
+
+#global2 {
+    position: absolute;
+    width: 368px;
+    height: 91px;
+    left: 456px;
+    top: 902px;
+}
+
+#glob2{
+    position: absolute;
+width: 213px;
+height: 33px;
+left: 512px;
+top: 896px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+#globtxt2 {
+    position: absolute;
+width: 107px;
+height: 23px;
+left: 470px;
+top: 890px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-align: justify;
+color: #FFFFFF;
+}
+
+#globpic2{
+    position: absolute;
+width: 242px;
+height: 242px;
+left: 659px;
+top: 835px;
+}
+
+#global3 {
+    position: absolute;
+    width: 368px;
+    height: 91px;
+    left: 854px;
+    top: 902px;
+}
+
+#glob3{
+    position: absolute;
+width: 213px;
+height: 33px;
+left: 905px;
+top: 896px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+#globtxt3{
+    position: absolute;
+width: 122px;
+height: 23px;
+left: 863px;
+top: 890px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+#globpic3{
+    position: absolute;
+width: 230px;
+height: 230px;
+left: 1062px;
+top: 840px;
+
+}
+
+#indo{
+    position: absolute;
+    width: 412px;
+    height: 57px;
+    left: 58px;
+    top: 1007px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 57px;
+    color: #40336D;
+}
+
+#indo1 {
+    position: absolute;
+width: 368px;
+height: 90px;
+left: 58px;
+top: 1100px;
+}
+
+#indokotak1 {
+    position: absolute;
+width: 72px;
+height: 69px;
+left: 77px;
+top: 1095px;
+
+background: #DC3546;
+border-radius: 5px;
+}
+
+#indopic1 {
+    position: absolute;
+width: 159px;
+height: 159px;
+left: 33px;
+top: 1077px;
+}
+
+#indop1 {
+    position: absolute;
+width: 92px;
+height: 23px;
+left: 160px;
+top: 1106px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+text-align: justify;
+color: #40336D;
+}
+
+#indoq1 {
+position: absolute;
+width: 213px;
+height: 33px;
+left: 160px;
+top: 1115px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+text-align: justify;
+color: #40336D;
+}
+
+#indo2 {
+    position: absolute;
+width: 368px;
+height: 91px;
+left: 456px;
+top: 1100px;
+}
+
+#indokotak2 {
+    position: absolute;
+    width: 72px;
+    height: 69px;
+    left: 467px;
+    top: 1095px;
+
+    background: #27A844;
+    border-radius: 5px;
+}
+
+#indopic2{
+    position: absolute;
+    width: 164px;
+    height: 163px;
+    left: 421px;
+    top: 1070px;
+}
+
+#indop2 {
+    position: absolute;
+    width: 107px;
+    height: 23px;
+    left: 557px;
+    top: 1106px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    color: #40336D;
+}
+
+#indoq2 {
+    position: absolute;
+    width: 213px;
+    height: 33px;
+    left: 557px;
+    top: 1115px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: justify;
+    color: #40336D;
+}
+
+#indo3 {
+
+    position: absolute;
+    width: 368px;
+    height: 91px;
+    left: 854px;
+    top: 1100px;
+}
+
+#indokotak3{
+    position: absolute;
+    width: 72px;
+height: 69px;
+left: 865px;
+    top: 1095px;
+
+    background: #6F42C1;
+    border-radius: 5px;
+}
+
+#indopic3{
+    position: absolute;
+    width: 157px;
+height: 157px;
+left: 826px;
+    top: 1073px;
+}
+
+#indop3 {
+    position: absolute;
+    width: 122px;
+height: 23px;
+left: 946px;
+    top: 1106px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    color: #40336D;
+}
+
+#indoq3 {
+    position: absolute;
+    width: 213px;
+height: 33px;
+left: 947px;
+    top: 1115px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: justify;
+    color: #40336D;
+}
+
+.button {
+  border: none;
+ text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 15px rgba(0, 0, 0, 0.3));
+}
+
+.button1 {
+     background-color: #DC3546; 
+}
+
+.button1:hover {
+  background-color: #f44336;
+}
+
+.button2 {
+  background-color: #27A844; 
+}
+
+.button2:hover {
+  background-color: lightgreen;
+}
+
+.button3 {
+  background-color: #6F42C1; 
+}
+
+.button3:hover {
+  background-color: purple;
+}
+
+.buttonpth {
+    background-color: white;
+}
+
+.buttonpth:hover {
+    background-color: lightgrey;
+}
+
+#provinsi {
+    position: absolute;
+width: 379px;
+height: 57px;
+left: 58px;
+top: 1188px;
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 57px;
+/* identical to box height */
+
+
+color: #40336D;
 }
