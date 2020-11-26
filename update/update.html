@@ -9,7 +9,7 @@
     <!--Source Sans Pro-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="/asset/style.css" rel="stylesheet">
     <title>Parah Update</title>
 </head>
 
@@ -23,9 +23,9 @@
             <a id="about" href="http://about.parahvenus.ga/">About</a>
         </nav>
     </div>
-    <img src="gambar/background.png" id="background">
 
-    <a href="#"><button class="button">LET'S START</button></a>
+
+    <a href="#datakasus"><button class="button">LET'S START</button></a>
 
     <div id="intro">
         <p id="title">
@@ -36,6 +36,81 @@
             Bagimana sih update dari covid-19? Apakah banyak yang terinfeksi ? Yuk disimak. Jangan sampe ketinggalan ya ...
         </p>
     </div>
+
+    <p id="datakasus"> Data Kasus COVID-19 </p>
+
+    <p id="global"> Data Kasus Global</p>
+
+    <button id='global1' class="button button1"></button>
+    <p id="globtxt1">Total Positif</p>
+    <p id="glob1"><?php echo $globalPos['value']; ?></p>
+    <img id="globpic1" src="asset/img/nangis-1.png"></img>
+
+    <button id='global2' class="button button2"></button>
+    <p id="globtxt2">Total Sembuh</p>
+    <p id="glob2"><?php echo $globalSemb['value']; ?></p>
+    <img id="globpic2" src="asset/img/senyum.png"></img>
+
+    <button id='global3' class="button button3"></button>
+    <p id="globtxt3">Total Meninggal</p>
+    <p id="glob3"><?php echo $globalMeni['value']; ?></p>
+    <img id="globpic3" src="asset/img/meninggoy.png"></img>
+
+    <table id="prov">
+
+    <p id="indo"> Data Kasus Indonesia</p>
+    <?php foreach ($indonesia as $value) { ?>
+
+    <button id='indo1' class="button buttonpth"></button>
+    <p id="indokotak1"></p>
+    <img id="indopic1" src="asset/img/nangispth.png"></img>
+    <p id='indop1'>Total Positif</p>
+    <p id="indoq1"><?php echo $value['positif']; ?></p>
+
+    <button id='indo2' class="button buttonpth"></button>
+    <p id="indokotak2"></p>
+    <img id="indopic2" src="asset/img/senyumpth.png"></img>
+    <p id='indop2'>Total Sembuh</p>
+    <p id="indoq2"><?php echo $value['sembuh']; ?></p>
+
+
+    <button id='indo3' class="button buttonpth"></button>
+    <p id="indokotak3"></p>
+    <img id="indopic3" src="asset/img/meninggoypth.png"></img>
+    <p id='indop3'>Total Meninggal</p>
+    <p id="indoq3"><?php echo $value['meninggal']; ?></p>
+
+
+
+    <?php } ?>  
+    <p id="provinsi"> Data Kasus Provinsi </p>
+    <table id="prov">
+
+                  <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Provinsi</th>
+                    <th>Positif</th>
+                    <th>Sembuh</th>
+                    <th>Meninggal</th>
+                  </tr>
+                  </thead>
+                  <?php 
+                  $no = 1;
+                  foreach ($provinsi as $value) { ?>
+                  <tbody>
+                  <tr>
+                    <td><?php echo $no; ?></td>
+                    <td><?php echo $value['attributes']['Provinsi']; ?>
+                    </td>
+                    <td><?php echo number_format ($value['attributes']['Kasus_Posi']); ?></td>
+                    <td><?php echo number_format ($value['attributes']['Kasus_Semb']); ?></td>
+                    <td><?php echo number_format ($value['attributes']['Kasus_Meni']); ?></td>
+                  </tr>                  
+                  </tbody>
+                  <?php $no++; } ?>
+    </table>
+
 </body>
 
 </html>
